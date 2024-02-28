@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuizManagement.Core.Builder\QuizManagement.Core.Builder.csproj" />
+    <ProjectReference Include="..\QuizManagement.Core.Contract\QuizManagement.Core.Contract.csproj" />
+    <ProjectReference Include="..\QuizManagement.Core.Domain\QuizManagement.Core.Domain.csproj" />
+    <ProjectReference Include="..\QuizManagement.Infra.Contract\QuizManagement.Infra.Contract.csproj" />
+    <ProjectReference Include="..\QuizManagement.Infra.Domain\QuizManagement.Infra.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
